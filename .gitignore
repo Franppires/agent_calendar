@@ -1,14 +1,26 @@
 # 1. Arquivos de Credenciais e Tokens Confidenciais
-token.pickle        # Essencial para segurança. Não deve ser compartilhado.
-credentials.json    # Contém suas chaves de API. É recomendável não subir.
+# ESSENCIAL: Contém sua chave de acesso. Não deve ser compartilhado!
+token.pickle
 
-# 2. Pastas de Ambiente Virtual
-.venv/              # Ignora a pasta do ambiente virtual (.venv)
-venv/               # Ignora a pasta do ambiente virtual (se você usou "venv" em vez de ".venv")
-__pycache__/        # Arquivos temporários do Python
+# Arquivos de credenciais da API (opcional, mas altamente recomendado)
+credentials.json
+
+# 2. Pastas de Ambiente Virtual (Venv)
+.venv/
+venv/
+lib/
+include/
+Scripts/
+pyvenv.cfg
+__pycache__/
 
 # 3. Arquivos de Compilação (PyInstaller)
-*.exe               # Seu executável final (calendar_agent.exe)
-*.spec              # Arquivo de configuração do PyInstaller
-/build/             # Pasta de build do PyInstaller
-/dist/              # Pasta de saída do PyInstaller
+# Ignora o executável final
+*.exe
+
+# Ignora os arquivos de configuração do PyInstaller
+*.spec
+
+# Pastas de saída de build
+/build/
+/dist/
