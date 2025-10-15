@@ -1,6 +1,7 @@
 # 1. Arquivos de Credenciais e Tokens Confidenciais
 # ESSENCIAL: Contém sua chave de acesso. Não deve ser compartilhado!
 token.pickle
+dist/token.pickle
 
 # Arquivos de credenciais da API (opcional, mas altamente recomendado)
 credentials.json
