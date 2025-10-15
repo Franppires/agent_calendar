@@ -24,4 +24,5 @@ __pycache__/
 
 # Pastas de saída de build
 /build/
-/dist/
+dist/
+*.exe
